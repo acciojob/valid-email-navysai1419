@@ -4,9 +4,9 @@ function validEmail(str) {
     return false;
   }
 
-  // Check if the email matches the regular expression
+  
   return emailRegex.test(str);
-}
+}  
 
 // Do not change the code below.
 const str = prompt("Enter an email address.");
